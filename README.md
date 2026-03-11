@@ -29,3 +29,9 @@ To disable the context menu:
 ## Credits
 
 This package originally by [@temochka](https://github.com/temochka) at [@temochka/sublime-text-2-github-tools](https://github.com/temochka/sublime-text-2-github-tools). 
+
+## Buy me a coffee 
+
+Please feel free to make a little donation towards the coffee that keeps this labour of love running. It's much appreciated!
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/G2G21VT3Z6)
