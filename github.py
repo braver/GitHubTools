@@ -76,7 +76,7 @@ class GitRepo(object):
         return self.git("rev-parse HEAD")
 
     def parse_branch(self, branches):
-        p = re.compile("\* (.+)")
+        p = re.compile(r'\* (.+)')
         m = p.findall(branches)
         return m[0] if m else None
 
@@ -134,7 +134,7 @@ class GitRepo(object):
         }
 
     def parse_heads(self, heads):
-        f = lambda l: tuple(re.split("\s", l.replace('refs/heads/', ''))[::-1])
+        f = lambda l: tuple(re.split(r'\s', l.replace('refs/heads/', ''))[::-1])
         return dict(map(f, heads.splitlines()))
 
     def browse_file_url(self, filename, linenumber=False):
